@@ -1,0 +1,233 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Switch
+LIBS:MyOwnLibrary
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SW_Reed SW1
+U 1 1 5D014E17
+P 7600 4150
+F 0 "SW1" H 7600 4250 50  0000 C CNN
+F 1 "RPM Sensor" H 7600 4050 50  0000 C CNN
+F 2 "" H 7600 4150 50  0001 C CNN
+F 3 "" H 7600 4150 50  0001 C CNN
+	1    7600 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L 4093 U1
+U 1 1 5D014F94
+P 8450 5550
+F 0 "U1" H 9000 5300 50  0000 C CNN
+F 1 "4093" H 9000 5200 50  0000 C CNN
+F 2 "" H 7900 5750 60  0001 C CNN
+F 3 "" H 7900 5750 60  0001 C CNN
+	1    8450 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoUno Uno?
+U 1 1 5D0150CA
+P 5450 3550
+F 0 "Uno?" H 6300 1250 60  0000 C CNN
+F 1 "ArduinoUno" V 6250 2000 60  0000 C CNN
+F 2 "" H 5900 2700 60  0001 C CNN
+F 3 "" H 5900 2700 60  0001 C CNN
+	1    5450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 5D015613
+P 7000 3550
+F 0 "C1" H 6850 3650 50  0000 L CNN
+F 1 "500 nF" H 6700 3450 50  0000 L CNN
+F 2 "" H 7038 3400 50  0001 C CNN
+F 3 "" H 7000 3550 50  0001 C CNN
+	1    7000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5D015670
+P 7300 3500
+F 0 "R1" V 7380 3500 50  0000 C CNN
+F 1 "10k" V 7300 3500 50  0000 C CNN
+F 2 "" V 7230 3500 50  0001 C CNN
+F 3 "" H 7300 3500 50  0001 C CNN
+	1    7300 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 5450 8650 5450
+Wire Wire Line
+	8200 5750 6900 5750
+Wire Wire Line
+	8300 5850 6900 5850
+Connection ~ 7150 3150
+Wire Wire Line
+	7150 3150 7150 3250
+Wire Wire Line
+	7000 3250 7300 3250
+Wire Wire Line
+	7000 3700 7000 3800
+Wire Wire Line
+	7300 3250 7300 3350
+Connection ~ 7150 3250
+Wire Wire Line
+	7000 3250 7000 3400
+Wire Wire Line
+	7000 3800 7300 3800
+Wire Wire Line
+	7300 3800 7300 3650
+Connection ~ 7150 3800
+Wire Wire Line
+	8500 5700 8650 5700
+Wire Wire Line
+	7150 4150 7400 4150
+$Comp
+L SW_Reed SW2
+U 1 1 5D015B13
+P 8750 4150
+F 0 "SW2" H 8750 4250 50  0000 C CNN
+F 1 "Anemometer" H 8750 4050 50  0000 C CNN
+F 2 "" H 8750 4150 50  0001 C CNN
+F 3 "" H 8750 4150 50  0001 C CNN
+	1    8750 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C2
+U 1 1 5D015B19
+P 8150 3500
+F 0 "C2" H 8000 3600 50  0000 L CNN
+F 1 "500nF" H 7900 3400 50  0000 L CNN
+F 2 "" H 8188 3350 50  0001 C CNN
+F 3 "" H 8150 3500 50  0001 C CNN
+	1    8150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5D015B1F
+P 8450 3500
+F 0 "R2" V 8530 3500 50  0000 C CNN
+F 1 "10k" V 8450 3500 50  0000 C CNN
+F 2 "" V 8380 3500 50  0001 C CNN
+F 3 "" H 8450 3500 50  0001 C CNN
+	1    8450 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 8300 3150
+Wire Wire Line
+	8300 3150 8300 3250
+Wire Wire Line
+	8150 3250 8450 3250
+Wire Wire Line
+	8150 3250 8150 3350
+Wire Wire Line
+	8450 3250 8450 3350
+Connection ~ 8300 3250
+Wire Wire Line
+	8150 3650 8150 3800
+Wire Wire Line
+	8150 3800 8450 3800
+Wire Wire Line
+	8450 3800 8450 3650
+Connection ~ 8300 3800
+Wire Wire Line
+	8300 4150 8550 4150
+Wire Wire Line
+	8950 4150 8950 4500
+Wire Wire Line
+	8950 4500 7800 4500
+Connection ~ 7800 6050
+Connection ~ 7800 4500
+Connection ~ 8300 4150
+Wire Wire Line
+	8300 5000 8650 5000
+Connection ~ 7150 4150
+Wire Wire Line
+	8200 5200 8650 5200
+Wire Wire Line
+	8300 5350 8650 5350
+Wire Wire Line
+	8050 5550 8650 5550
+Wire Wire Line
+	8050 4800 8050 5550
+Wire Wire Line
+	5750 4800 5650 4800
+Connection ~ 8050 5100
+Wire Wire Line
+	8650 5100 8050 5100
+Wire Wire Line
+	5750 5000 5650 5000
+Wire Wire Line
+	5650 5000 5650 6050
+Wire Wire Line
+	5650 6050 8500 6050
+Wire Wire Line
+	8500 6050 8500 5700
+Wire Wire Line
+	8200 5750 8200 5200
+Wire Wire Line
+	5650 4800 5650 3150
+Wire Wire Line
+	7150 5450 7150 3800
+Wire Wire Line
+	8300 3800 8300 5000
+Wire Wire Line
+	8300 5350 8300 5850
+Wire Wire Line
+	7800 6050 7800 4150
+Wire Wire Line
+	9450 5000 9400 5000
+Wire Wire Line
+	9450 3150 9450 5000
+Wire Wire Line
+	5650 3150 9450 3150
+Wire Wire Line
+	8050 4800 9450 4800
+Connection ~ 9450 4800
+$EndSCHEMATC

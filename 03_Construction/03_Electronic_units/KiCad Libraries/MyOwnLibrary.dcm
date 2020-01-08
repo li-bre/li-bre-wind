@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP Micro_SD_Card_Ard
+D Micro SD Card Socket
+K connector SD microsd
+F http://katalog.we-online.de/em/datasheet/693072010801.pdf
+$ENDCMP
+#
+$CMP Relais_3P
+D Microminiature Polarised Dual Pole Relay
+K Miniature Polarised Relay Dual Pole
+F http://www.azettler.com/pdfs/az850.pdf
+$ENDCMP
+#
+$CMP Relais_4P
+D Microminiature Polarised Dual Pole Relay
+K Miniature Polarised Relay Dual Pole
+F http://www.azettler.com/pdfs/az850.pdf
+$ENDCMP
+#
+#End Doc Library
