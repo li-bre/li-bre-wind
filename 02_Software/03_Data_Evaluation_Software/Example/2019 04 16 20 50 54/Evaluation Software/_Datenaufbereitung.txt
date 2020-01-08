@@ -1,0 +1,17 @@
+wind Daten:
+Erste Zeile müssen Überschriften
+Alle Zeilen müssen gleich viele Spalten (letzte Zeile löchen weil 1 weniger)
+Suchen und ersetzen: inf -> 999
+
+Programm Einlesen_winddaten_v1.sce ausführen:
+Beachten: 
+windfactor=1.4;
+timedifference=-14; //zeitunterschied: controltime-windtime durch screenshots herausfinden
+RPM_Factor=3; 
+filedir="C:\Users\J B\tubcloud\Module\Masterarbeit\Testen\Daten_bearbeitet\_Test\2019_04_16_12_19_47_wind2.txt";
+
+wird abgespeichert als ..._v2.txt in Ursprungsdateipfad
+
+control Daten:
+Erste Zeile müssen Überschriften
+Alle Zeilen müssen gleich viele Spalten 
