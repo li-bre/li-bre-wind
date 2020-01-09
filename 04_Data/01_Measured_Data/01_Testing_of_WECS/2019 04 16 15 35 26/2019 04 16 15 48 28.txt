@@ -1,0 +1,4 @@
+Initialize DS3231
+error opening 04161548.txt
+Year Month Day Hour Minute Second V1 V2 I1 I2 P1 P2 SU_MS SU_Stability MS MS_RPM Gen_RPM SU_P_1_target SU_Gen_Start_Counter Relais_state wind_v1 wind_v1_mean wind_v1_cut_out wind_status Battery_full MS_DCDC_PWM Dumpload Short_Break MPPT_MODE MPPT_delta_wind_v1 MPPT_delta_wind_v1_Reason MPPT_DCDC_PWM MPPT_omega_stern MPPT_omega_opt MPPT_kopt*10^6 MPPT_P_2_opt MPPT_delta_P_2 MPPT_delta_Omega Codepoint
+2019 04 16 15 48 28 26.610 12.118 Nan -0.124 Nan -1.51 0 0 0 0 71 0.00 0 0 2.00 0.00 8.00 0 0 240 0 0 0 0 0 200 0.00 0.00 0.00 0.00 0.00 0.00 1 

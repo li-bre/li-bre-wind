@@ -1,0 +1,9 @@
+Initialize DS3231
+error opening 04161954.txt
+Year Month Day Hour Minute Second V1 V2 I1 I2 P1 P2 SU_MS SU_Stability MS MS_RPM Gen_RPM SU_P_1_target SU_Gen_Start_Counter Relais_state wind_v1 wind_v1_mean wind_v1_cut_out wind_status Battery_full MS_DCDC_PWM Dumpload Short_Break MPPT_MODE MPPT_delta_wind_v1 MPPT_delta_wind_v1_Reason MPPT_DCDC_PWM MPPT_omega_stern MPPT_omega_opt MPPT_kopt*10^6 MPPT_P_2_opt MPPT_delta_P_2 MPPT_delta_Omega Codepoint
+2019 04 16 19 54 32 13.927 12.182 Nan -0.123 Nan -1.49 0 0 0 0 0 0.00 0 0 2.00 0.00 8.00 0 0 240 0 0 0 0 0 200 0.00 0.00 0.00 0.00 0.00 0.00 1 
+2019 04 16 19 55 33 13.495 12.180 Nan -0.131 Nan -1.60 0 0 0 0 0 0.00 0 0 2.00 2.00 8.00 2 0 240 0 0 0 0 0 240 0.00 0.00 0.00 0.00 0.00 0.00 2 
+2019 04 16 19 55 34 12.878 12.152 Nan -0.183 Nan -2.22 0 0 0 439 0 0.00 0 1 2.00 2.00 8.00 2 0 240 0 0 0 0 0 240 0.00 0.00 0.00 0.00 0.00 0.00 3 
+2019 04 16 19 55 35 12.876 12.151 Nan -0.183 Nan -2.22 0 0 0 954 0 0.00 0 1 2.00 2.00 8.00 2 0 232 0 0 0 0 0 240 0.00 0.00 0.00 0.00 0.00 0.00 4 
+2019 04 16 19 55 36 13.241 12.129 Nan -0.328 Nan -3.98 0 0 0 954 0 0.00 0 1 2.00 2.00 8.00 2 0 224 0 0 0 0 0 240 0.00 0.00 0.00 0.00 0.00 0.00 4 
+2019 04 16 19 55 37 13.575 12.080 Nan -0.597 Nan -7.22 0 0 0 1 0 0.00 0 1 2.00 2.00 8.00 2 0 216 0 0 0 0 0 240 0.00 0.00 0.00 0.00 0.00 0.00 4 
