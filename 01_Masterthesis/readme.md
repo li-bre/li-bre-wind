@@ -1,1 +1,2 @@
-This is the PDF file of the Masterthesis. It is hosted on an lsf-Server so might need to be downloaded individually
+The PDF file of the Masterthesis can be downloaded here:
+https://tubcloud.tu-berlin.de/s/cyPPTowJxPczsab
