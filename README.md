@@ -2,9 +2,10 @@
 
 **Li.Bre wind** is a project by [Avia Linke](https://github.com/a-linke) and [Julian Brendel](https://github.com/j-brendel) that offers an open source solution for an micro off-grid system powered by a 3D printed helical darrieus wind turbine. The project was developed as a master thesis at Technische Universität Berlin. 
 
-The **Abstract** of this work reads as follows:
+## Open source micro power plant
+### The development and construction of an Arduino controlled 3D printed vertical axis wind turbine
 
-## Abstract - English version
+#### Abstract - English version
 
 This master thesis describes the development, construction and testing of a prototype
 version of a micro wind energy conversion system in battery charging application.
@@ -21,7 +22,7 @@ turbines behavior was similar to the simulations although the measured power and
 torque created by the turbine are lower than expected. A constant wind speed above ![equation](http://latex.codecogs.com/gif.latex?v_1%20%3D%205%5C%2C%20m/s) is needed to operate the turbine. The start-up and deceleration of the
 turbine were successfully tested, while MPPT could not be tested due to low wind.
 
-## Zusammenfassung - Deutsche Version
+#### Zusammenfassung - Deutsche Version
 
 Diese Masterarbeit beschreibt die Entwicklung, die Konstruktion und das Testen
 eines Prototypen einer Mikrowindenergieanlage zur Batterieladung. Das Ziel der
